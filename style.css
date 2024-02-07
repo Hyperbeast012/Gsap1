@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Gilroy';
+    box-sizing: border-box;
+    color: white;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#nav{
+    height: 80px;
+    width:100%;
+    background-color:black ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+
+}
+#img1{
+    height: 70px;
+    
+}
+
+#main>h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    z-index: 2;
+    position: relative;
+   
+    
+}
+#main h1 span{
+    background-color: rgb(153, 49, 49);
+    font-size: 30px;
+    margin: 0 30px;
+    border-radius: 50px;
+    padding: .4rem;
+    
+}
+
+
+#main h1:nth-child(1){
+    margin-top: 60px;
+}
+
+#main h1:nth-child(2){
+    margin: 0 20px;
+}
+
+#left{
+    width: 250px;
+    position: absolute;
+    top: 15%;
+    border-radius: 10px;
+    left:60px;
+    z-index: 0;
+
+}
+
+#right{
+    width: 350px;
+    position: absolute;
+    bottom: 15%;
+    border-radius: 10px;
+    right:60px;
+    z-index: 1;
+}
+
+
+#nav1{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    font-size: .7rem;
+    font-weight: 50;
+}
+
+#nav2{
+    display: flex;
+    gap: 15px;
+    margin-right: .5rem;
+    font-size: .7rem;
+    align-items: center;
+}
+#nav2>button{
+    width: 6rem;
+    height: 2.5rem;
+    outline: none;
+    color: black;
+    font-weight: 300;
+    padding: .2rem;
+
+}
+
+h5{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
